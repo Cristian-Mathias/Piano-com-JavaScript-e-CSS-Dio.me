@@ -1,0 +1,137 @@
+
+@media (max-width: 890px) {
+    .container {
+        width: 80%;
+        padding: 25px 20px;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    .mark {
+        font-size: 0.6rem;
+        padding: 5px;
+    }
+
+    header .column span {
+        font-size: 0.8rem;
+    }
+
+    .keys-check input {
+        width: 40px;
+        height: 20px;
+    }
+
+    .keys-check input:checked::before {
+        left: 1.2rem;
+    }
+
+    .volume-slider input {
+        width: 65px;
+    }
+
+    .piano-keys .white {
+        width: 70px;
+        height: 180px;
+    }
+
+    .piano-keys .black {
+        width: 35px;
+        height: 110px;
+        margin: 0 -18px;
+    }
+}
+
+
+@media (max-width: 660px) {
+    .container {
+        width: 80%;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    .mark {
+        font-size: 0.5rem;
+        padding: 5px;
+    }
+    
+    .keys-check input{
+        width: 35px;
+        height: 13px;
+    }
+    .keys-check input::before{
+        width: 10px;
+        height: 10px;
+        top: 50%;
+        left: 0.2rem;
+    }
+    .keys-check input:checked::before{
+        left: 1.3rem;
+    }
+
+    .piano-keys {
+        margin-top: 20px;
+    }
+
+    .piano-keys .white {
+        width: 50px;
+        height: 150px;
+    }
+
+    .piano-keys .black {
+        width: 25px;
+        height: 90px;
+        margin: 0 -13px;
+    }
+
+    .piano-keys span {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .container {
+        width: 80%;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    .container header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    .mark {
+        font-size: 0.5rem;
+        padding: 5px;
+    }
+
+    .piano-keys {
+        margin-top: 20px;
+    }
+
+    .piano-keys .white {
+        width: 50px;
+        height: 150px;
+    }
+
+    .piano-keys .black {
+        width: 25px;
+        height: 90px;
+        margin: 0 -11px;
+    }
+
+    .piano-keys span {
+        font-size: 0.9rem;
+    }
+}
